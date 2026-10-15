@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Mau
+  - Bom
   layers:
   - Default
   - TransparentFX
