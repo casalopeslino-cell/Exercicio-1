@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mau
   - Bom
+  - Plataforma
   layers:
   - Default
   - TransparentFX
