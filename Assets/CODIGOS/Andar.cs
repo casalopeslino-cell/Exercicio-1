@@ -49,6 +49,16 @@ public class Andar : MonoBehaviour
             som.PlayOneShot(recolher);
             coin += 1;
             coins.text = coin.ToString();
+            quem.gameObject.SetActive(false);
+        }
+    }
+    private void OnTriggerExit(Collider atum)
+    {
+        if (atum.gameObject.tag == "Finish")
+        {
+            {
+                FindAnyObjectByType<controladorScript>().passou();
+            }
         }
     }
 

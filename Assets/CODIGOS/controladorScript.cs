@@ -10,6 +10,10 @@ public class controladorScript : MonoBehaviour
         recomecar();
     }
 
+    public void passou()
+    {
+        SceneManager.LoadScene("Nível 2");
+    }
     void recomecar()
     {
         SceneManager.LoadScene("Nível 1");
