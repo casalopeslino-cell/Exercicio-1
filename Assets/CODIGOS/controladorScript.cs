@@ -16,6 +16,6 @@ public class controladorScript : MonoBehaviour
     }
     void recomecar()
     {
-        SceneManager.LoadScene("Nível 1");
+        SceneManager.LoadScene("Menu");
     }
 }
